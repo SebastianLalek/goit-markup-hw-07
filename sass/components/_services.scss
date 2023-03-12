@@ -1,0 +1,27 @@
+.services {
+  display: flex;
+  gap: 30px;
+
+  &__picture {
+    display: block;
+    max-width: 370px;
+  }
+
+  &__item {
+    position: relative;
+    flex-basis: calc((100%-60px) / 3);
+  }
+
+  &__description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 370px;
+    padding: 27px 0;
+    color: $alt-color;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 14px;
+    background-color: $service-bg;
+  }
+}
