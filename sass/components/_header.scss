@@ -7,6 +7,12 @@
     justify-content: space-between;
     padding: 24px 0 25px;
   }
+
+  &__logo {
+    @extend %logo;
+    flex-grow: 1;
+    color: $logo-color;
+  }
 }
 
 .nav {
@@ -78,5 +84,10 @@
       fill: $brand-color;
       color: $brand-color;
     }
+  }
+
+  &__icon {
+    box-sizing: content-box;
+    padding-right: 10px;
   }
 }

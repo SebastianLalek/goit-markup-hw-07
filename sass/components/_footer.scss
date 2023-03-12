@@ -12,6 +12,7 @@
   }
 
   &__logo {
+    @extend %logo;
     color: $alt-color;
   }
 
@@ -23,7 +24,7 @@
   }
 }
 
-address {
+.address {
   padding-top: 20px;
   padding-bottom: 60px;
   font-style: normal;
@@ -44,7 +45,8 @@ address {
 }
 
 .footer__socials {
-  fill: $default-color;
+  @extend .socials__icon;
+  fill: $alt-color;
   background-color: $iconbg-color;
 }
 

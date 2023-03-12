@@ -34,4 +34,9 @@
   &__title {
     color: $default-color;
   }
+
+  &__socials {
+    @extend .socials__icon;
+    fill: $icon-color;
+  }
 }
