@@ -1,6 +1,4 @@
 .advantages {
-  display: flex;
-  gap: 30px;
   font-size: 14px;
 
   &__icon {
@@ -14,10 +12,6 @@
     margin-bottom: 10px;
     font-weight: 700;
     line-height: 1.14;
-  }
-
-  &__item {
-    flex-basis: calc((100% - 90px) / 4);
   }
 
   &__description {

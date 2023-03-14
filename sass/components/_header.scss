@@ -1,17 +1,11 @@
 .header {
   border-bottom: 1px solid $border-color;
 
-  &__items {
+  &__content {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 24px 0 25px;
-  }
-
-  &__logo {
-    @extend %logo;
-    flex-grow: 1;
-    color: $logo-color;
   }
 }
 

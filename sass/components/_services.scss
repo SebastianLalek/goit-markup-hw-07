@@ -1,7 +1,4 @@
 .services {
-  display: flex;
-  gap: 30px;
-
   &__picture {
     display: block;
     max-width: 370px;
@@ -9,7 +6,6 @@
 
   &__item {
     position: relative;
-    flex-basis: calc((100% - 60px) / 3);
   }
 
   &__description {

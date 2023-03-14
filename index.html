@@ -22,10 +22,10 @@
   </head>
   <body>
     <header class="header">
-      <div class="container">
-        <section class="header__items">
-          <a href="./index.html" class="header__logo"
-            ><span class="logo--accent">Web</span>Studio</a
+      <div class="content-display">
+        <div class="header__content">
+          <a href="./index.html" class="logo"
+            >Web<span class="logo--dark">Studio</span></a
           >
           <nav>
             <ul class="nav">
@@ -37,7 +37,9 @@
               <li class="nav__item">
                 <a href="./potrfolio.html" class="nav__link">Portfolio</a>
               </li>
-              <li><a href="#" class="nav__link">Kontakt</a></li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">Kontakt</a>
+              </li>
             </ul>
           </nav>
           <ul class="contacts">
@@ -58,28 +60,24 @@
               >
             </li>
           </ul>
-        </section>
+        </div>
       </div>
     </header>
     <main>
       <section class="page-title">
-        <div class="container">
+        <div class="content-display">
           <h1 class="page-title__heading">
             Efektywne rozwiazania dla waszego biznesu
           </h1>
-          <button
-            type="button"
-            class="button page-title__button"
-            data-modal-open
-          >
+          <button type="button" class="button" data-modal-open>
             Zamów usługę
           </button>
         </div>
       </section>
       <section class="section">
-        <div class="container">
-          <ul class="advantages">
-            <li class="advantages__item">
+        <div class="content-display">
+          <ul class="advantages grid4">
+            <li class="grid4__item">
               <svg width="70" height="70" class="advantages__icon">
                 <use href="./images/icons.svg#icon-antenna"></use>
               </svg>
@@ -89,7 +87,7 @@
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
-            <li class="advantages__item">
+            <li class="grid4__item">
               <svg width="70" height="70" class="advantages__icon">
                 <use href="./images/icons.svg#icon-clock"></use>
               </svg>
@@ -99,7 +97,7 @@
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
-            <li class="advantages__item">
+            <li class="grid4__item">
               <svg width="70" height="70" class="advantages__icon">
                 <use href="./images/icons.svg#icon-diagram"></use>
               </svg>
@@ -109,7 +107,7 @@
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
-            <li class="advantages__item">
+            <li class="grid4__item">
               <svg width="70" height="70" class="advantages__icon">
                 <use href="./images/icons.svg#icon-astronaut"></use>
               </svg>
@@ -123,10 +121,10 @@
         </div>
       </section>
       <section class="section">
-        <div class="container">
+        <div class="content-display">
           <h2 class="section__heading">Czym się zajmujemy</h2>
-          <ul class="services">
-            <li class="services__item">
+          <ul class="grid3">
+            <li class="services__item grid3__item">
               <img
                 class="services__picture"
                 src="./images/img.jpg"
@@ -134,7 +132,7 @@
               />
               <p class="services__description">Apliakcje komputerowe</p>
             </li>
-            <li class="services__item">
+            <li class="services__item grid3__item">
               <img
                 class="services__picture"
                 src="./images/img2.jpg"
@@ -142,7 +140,7 @@
               />
               <p class="services__description">Apliakcje mobilne</p>
             </li>
-            <li class="services__item">
+            <li class="services__item grid3__item">
               <img
                 class="services__picture"
                 src="./images/img3.jpg"
@@ -154,10 +152,10 @@
         </div>
       </section>
       <section class="team section">
-        <div class="container">
+        <div class="content-display">
           <h2 class="section__heading">Nasz zespół</h2>
-          <ul class="team-members">
-            <li>
+          <ul class="grid4">
+            <li class="grid4__item">
               <figure class="team-card">
                 <img
                   class="team-card__picture"
@@ -168,22 +166,22 @@
                   <h4 class="team-card__name">John Doe</h4>
                   <p class="team-card__title">Product Designer</p>
                   <ul class="socials">
-                    <li class="team-card__socials">
+                    <li class="socials__icon">
                       <svg width="20" height="20">
                         <use href="./images/icons.svg#icon-instagram"></use>
                       </svg>
                     </li>
-                    <li class="team-card__socials">
+                    <li class="socials__icon">
                       <svg width="20" height="20">
                         <use href="./images/icons.svg#icon-twitter"></use>
                       </svg>
                     </li>
-                    <li class="team-card__socials">
+                    <li class="socials__icon">
                       <svg width="20" height="20">
                         <use href="./images/icons.svg#icon-facebook"></use>
                       </svg>
                     </li>
-                    <li class="team-card__socials">
+                    <li class="socials__icon">
                       <svg width="20" height="20">
                         <use href="./images/icons.svg#icon-linkedin"></use>
                       </svg>
@@ -192,7 +190,7 @@
                 </figcaption>
               </figure>
             </li>
-            <li>
+            <li class="grid4__item">
               <figure class="team-card">
                 <img
                   class="team-card__picture"
@@ -203,22 +201,22 @@
                   <h4 class="team-card__name">John Doe</h4>
                   <p class="team-card__title">Frontend Developer</p>
                   <ul class="socials">
-                    <li class="team-card__socials">
+                    <li class="socials__icon">
                       <svg width="20" height="20">
                         <use href="./images/icons.svg#icon-instagram"></use>
                       </svg>
                     </li>
-                    <li class="team-card__socials">
+                    <li class="socials__icon">
                       <svg width="20" height="20">
                         <use href="./images/icons.svg#icon-twitter"></use>
                       </svg>
                     </li>
-                    <li class="team-card__socials">
+                    <li class="socials__icon">
                       <svg width="20" height="20">
                         <use href="./images/icons.svg#icon-facebook"></use>
                       </svg>
                     </li>
-                    <li class="team-card__socials">
+                    <li class="socials__icon">
                       <svg width="20" height="20">
                         <use href="./images/icons.svg#icon-linkedin"></use>
                       </svg>
@@ -227,7 +225,7 @@
                 </figcaption>
               </figure>
             </li>
-            <li>
+            <li class="grid4__item">
               <figure class="team-card">
                 <img
                   class="team-card__picture"
@@ -238,22 +236,22 @@
                   <h4 class="team-card__name">John Doe</h4>
                   <p class="team-card__title">Marketing</p>
                   <ul class="socials">
-                    <li class="team-card__socials">
+                    <li class="socials__icon">
                       <svg width="20" height="20">
                         <use href="./images/icons.svg#icon-instagram"></use>
                       </svg>
                     </li>
-                    <li class="team-card__socials">
+                    <li class="socials__icon">
                       <svg width="20" height="20">
                         <use href="./images/icons.svg#icon-twitter"></use>
                       </svg>
                     </li>
-                    <li class="team-card__socials">
+                    <li class="socials__icon">
                       <svg width="20" height="20">
                         <use href="./images/icons.svg#icon-facebook"></use>
                       </svg>
                     </li>
-                    <li class="team-card__socials">
+                    <li class="socials__icon">
                       <svg width="20" height="20">
                         <use href="./images/icons.svg#icon-linkedin"></use>
                       </svg>
@@ -262,7 +260,7 @@
                 </figcaption>
               </figure>
             </li>
-            <li>
+            <li class="grid4__item">
               <figure class="team-card">
                 <img
                   class="team-card__picture"
@@ -273,22 +271,22 @@
                   <h4 class="team-card__name">John Doe</h4>
                   <p class="team-card__title">UI Designer</p>
                   <ul class="socials">
-                    <li class="team-card__socials">
+                    <li class="socials__icon">
                       <svg width="20" height="20">
                         <use href="./images/icons.svg#icon-instagram"></use>
                       </svg>
                     </li>
-                    <li class="team-card__socials">
+                    <li class="socials__icon">
                       <svg width="20" height="20">
                         <use href="./images/icons.svg#icon-twitter"></use>
                       </svg>
                     </li>
-                    <li class="team-card__socials">
+                    <li class="socials__icon">
                       <svg width="20" height="20">
                         <use href="./images/icons.svg#icon-facebook"></use>
                       </svg>
                     </li>
-                    <li class="team-card__socials">
+                    <li class="socials__icon">
                       <svg width="20" height="20">
                         <use href="./images/icons.svg#icon-linkedin"></use>
                       </svg>
@@ -301,7 +299,7 @@
         </div>
       </section>
       <section class="section">
-        <div class="container">
+        <div class="content-display">
           <h2 class="section__heading">Nasi kienci</h2>
           <ul class="clients">
             <li>
@@ -339,11 +337,11 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="container">
+      <div class="content-display">
         <ul class="footer__items">
           <li>
-            <a href="/index.html" class="footer__logo"
-              ><span class="logo--accent">Web</span>Studio</a
+            <a href="./index.html" class="logo"
+              >Web<span class="logo--light">Studio</span></a
             >
             <address class="address">
               <p>.m Warszawa, Aleje Jerozolimskie 21</p>
@@ -362,22 +360,22 @@
           <li>
             <h5 class="footer__heading">Dołącz do nas</h5>
             <ul class="socials">
-              <li class="footer__socials">
+              <li class="socials__icon socials__icon--bg">
                 <svg width="20" height="20">
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </li>
-              <li class="footer__socials">
+              <li class="socials__icon socials__icon--bg">
                 <svg width="20" height="20">
                   <use href="./images/icons.svg#icon-twitter"></use>
                 </svg>
               </li>
-              <li class="footer__socials">
+              <li class="socials__icon socials__icon--bg">
                 <svg width="20" height="20">
                   <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
               </li>
-              <li class="footer__socials">
+              <li class="socials__icon socials__icon--bg">
                 <svg width="20" height="20">
                   <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg>
@@ -395,7 +393,7 @@
                   placeholder="E-mail"
                 />
               </label>
-              <button class="button newsletter__button" type="submit">
+              <button class="button button--position" type="submit">
                 Zapisz się
                 <svg class="button__icon" width="24" height="24">
                   <use href="./images/icons.svg#icon-send"></use>
@@ -464,7 +462,7 @@
               <a class="privacy__link" href="#">Regulamin</a> i
               <a class="privacy__link" href="#">Politykę Prywatności.</a>
             </label>
-            <button class="modal__button" type="submit">Wyślij</button>
+            <button class="button modal__button" type="submit">Wyślij</button>
           </form>
         </div>
       </div>

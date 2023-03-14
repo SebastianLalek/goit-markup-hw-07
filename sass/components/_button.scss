@@ -9,4 +9,24 @@
   border-radius: 4px;
   border: 0;
   cursor: pointer;
+
+  &--position {
+    position: relative;
+    margin-left: 12px;
+    padding-left: 42px;
+    text-align: left;
+  }
+
+  &__icon {
+    position: absolute;
+    top: 13px;
+    right: 28px;
+    fill: $alt-color;
+  }
+}
+
+.modal__button {
+  @extend .button;
+  display: block;
+  margin: 30px auto 40px;
 }

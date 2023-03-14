@@ -1,0 +1,19 @@
+.grid3 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+
+  &__item {
+    flex-basis: calc((100% - 60px) / 3);
+  }
+}
+
+.grid4 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+
+  &__item {
+    flex-basis: calc((100% - 90px) / 4);
+  }
+}

@@ -40,12 +40,6 @@
     border: 1px solid $backdrop-color;
     cursor: pointer;
   }
-
-  &__button {
-    @extend .button;
-    display: block;
-    margin: 30px auto 40px;
-  }
 }
 
 .is-hidden {

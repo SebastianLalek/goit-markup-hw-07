@@ -1,12 +1,4 @@
 .projects {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-
-  &__item {
-    flex-basis: calc((100% - 60px) / 3);
-  }
-
   &__figure {
     position: relative;
     margin: 0;
@@ -45,7 +37,7 @@
     line-height: 1.88;
   }
 
-  &__description {
+  &__overlay {
     position: absolute;
     z-index: 3;
     height: 100%;
@@ -61,7 +53,7 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  &__figure:hover &__description {
+  &__figure:hover &__overlay {
     transform: translateY(-408px);
   }
 }

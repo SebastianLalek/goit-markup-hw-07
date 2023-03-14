@@ -2,11 +2,6 @@
   background-color: var(--section-color);
 }
 
-.team-members {
-  display: flex;
-  gap: 30px;
-}
-
 .team-card {
   margin: 0;
   text-align: center;
@@ -33,10 +28,5 @@
 
   &__title {
     color: $default-color;
-  }
-
-  &__socials {
-    @extend .socials__icon;
-    fill: $icon-color;
   }
 }
