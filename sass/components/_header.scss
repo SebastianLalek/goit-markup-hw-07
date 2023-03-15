@@ -14,7 +14,7 @@
   flex-grow: 1;
 
   &__item:not(:last-child) {
-    padding-right: 46px;
+    margin-right: 46px;
   }
 
   &__link {
@@ -57,7 +57,7 @@
   flex-grow: 4;
 
   &__item:not(:last-child) {
-    padding-right: 50px;
+    margin-right: 50px;
   }
 
   &__link {

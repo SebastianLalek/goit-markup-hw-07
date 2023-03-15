@@ -33,6 +33,10 @@ p {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+
+  &--lightgrey {
+    background-color: $button-color;
+  }
 }
 
 .section__heading {

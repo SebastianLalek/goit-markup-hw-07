@@ -69,7 +69,7 @@
           <h1 class="page-title__heading">
             Efektywne rozwiazania dla waszego biznesu
           </h1>
-          <button type="button" class="button" data-modal-open>
+          <button type="button" class="button button--blue" data-modal-open>
             Zamów usługę
           </button>
         </div>
@@ -151,7 +151,7 @@
           </ul>
         </div>
       </section>
-      <section class="team section">
+      <section class="section section--lightgrey">
         <div class="content-display">
           <h2 class="section__heading">Nasz zespół</h2>
           <ul class="grid4">
@@ -165,7 +165,7 @@
                 <figcaption class="team-card__caption">
                   <h4 class="team-card__name">John Doe</h4>
                   <p class="team-card__title">Product Designer</p>
-                  <ul class="socials">
+                  <ul class="socials team-card__socials">
                     <li class="socials__icon">
                       <svg width="20" height="20">
                         <use href="./images/icons.svg#icon-instagram"></use>
@@ -200,7 +200,7 @@
                 <figcaption class="team-card__caption">
                   <h4 class="team-card__name">John Doe</h4>
                   <p class="team-card__title">Frontend Developer</p>
-                  <ul class="socials">
+                  <ul class="socials team-card__socials">
                     <li class="socials__icon">
                       <svg width="20" height="20">
                         <use href="./images/icons.svg#icon-instagram"></use>
@@ -235,7 +235,7 @@
                 <figcaption class="team-card__caption">
                   <h4 class="team-card__name">John Doe</h4>
                   <p class="team-card__title">Marketing</p>
-                  <ul class="socials">
+                  <ul class="socials team-card__socials">
                     <li class="socials__icon">
                       <svg width="20" height="20">
                         <use href="./images/icons.svg#icon-instagram"></use>
@@ -270,7 +270,7 @@
                 <figcaption class="team-card__caption">
                   <h4 class="team-card__name">John Doe</h4>
                   <p class="team-card__title">UI Designer</p>
-                  <ul class="socials">
+                  <ul class="socials team-card__socials">
                     <li class="socials__icon">
                       <svg width="20" height="20">
                         <use href="./images/icons.svg#icon-instagram"></use>
@@ -301,34 +301,34 @@
       <section class="section">
         <div class="content-display">
           <h2 class="section__heading">Nasi kienci</h2>
-          <ul class="clients">
-            <li>
-              <svg width="106" height="60" class="clients__icon">
+          <ul class="grid6">
+            <li class="grid6__item">
+              <svg width="106" height="60" class="clients">
                 <use href="./images/icons.svg#icon-client1"></use>
               </svg>
             </li>
             <li>
-              <svg width="106" height="60" class="clients__icon">
+              <svg width="106" height="60" class="clients">
                 <use href="./images/icons.svg#icon-client2"></use>
               </svg>
             </li>
             <li>
-              <svg width="106" height="60" class="clients__icon">
+              <svg width="106" height="60" class="clients">
                 <use href="./images/icons.svg#icon-client3"></use>
               </svg>
             </li>
             <li>
-              <svg width="106" height="60" class="clients__icon">
+              <svg width="106" height="60" class="clients">
                 <use href="./images/icons.svg#icon-client4"></use>
               </svg>
             </li>
             <li>
-              <svg width="106" height="60" class="clients__icon">
+              <svg width="106" height="60" class="clients">
                 <use href="./images/icons.svg#icon-client5"></use>
               </svg>
             </li>
             <li>
-              <svg width="106" height="60" class="clients__icon">
+              <svg width="106" height="60" class="clients">
                 <use href="./images/icons.svg#icon-client6"></use>
               </svg>
             </li>
@@ -387,13 +387,13 @@
               <label>
                 <h5 class="footer__heading">Zapisz się do newslettera</h5>
                 <input
-                  class="newsletter__input"
+                  class="newsletter"
                   type="email"
                   name="newsletter"
                   placeholder="E-mail"
                 />
               </label>
-              <button class="button button--position" type="submit">
+              <button class="button button--blue footer__button" type="submit">
                 Zapisz się
                 <svg class="button__icon" width="24" height="24">
                   <use href="./images/icons.svg#icon-send"></use>
@@ -462,7 +462,9 @@
               <a class="privacy__link" href="#">Regulamin</a> i
               <a class="privacy__link" href="#">Politykę Prywatności.</a>
             </label>
-            <button class="button modal__button" type="submit">Wyślij</button>
+            <button class="button button--blue modal__button" type="submit">
+              Wyślij
+            </button>
           </form>
         </div>
       </div>
